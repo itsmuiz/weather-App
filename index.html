@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather App</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                    fill="none">
+                    <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path
+                        d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg></button>
+        </div>
+        <div class="weather">
+            <img src="" class="weather-icon" alt="">
+            <p class="weather-status">Cloud</p>
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">delhi</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="./humidity.png" alt="">
+                <div class="">
+                    <p class="humidity">50</p>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./wind.png" alt="">
+                <div class="">
+                    <p class="wind">15 km/h</p>
+                    <p>wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
