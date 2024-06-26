@@ -7,17 +7,15 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #232323;
-    display: flex;
+    background: linear-gradient(to right, #87CEEB, #1E90FF);    display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .card {
     height: 100%;
     width: 100%;
-    background-color: #7a7a7a;
     display: flex;
     justify-content: center;
     align-items: center;
