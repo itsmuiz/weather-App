@@ -30,7 +30,7 @@ async function getWeather(city) {
         humidityElement.textContent = `${Math.round(data.main.humidity)}%`;
         windElement.textContent = `${data.wind.speed} km/h`; 
         weatherStatus.textContent = data.weather[0].main;
-        weatherImg.src = `/${data.weather[0].main}.png`;
+        weatherImg.src = `./${data.weather[0].main}.png`;
 
     } catch (error) {
         console.error('Error fetching weather data', error);
